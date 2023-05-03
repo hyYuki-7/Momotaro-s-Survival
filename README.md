@@ -1,131 +1,178 @@
-航海日誌 (logbook-kai)
---
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sanaehirotaka/logbook-kai)](https://github.com/sanaehirotaka/logbook-kai/releases/latest)
-[![GitHub](https://img.shields.io/github/license/sanaehirotaka/logbook-kai)](LICENSE)
-[![GitHub All Releases](https://img.shields.io/github/downloads/sanaehirotaka/logbook-kai/total)](https://github.com/sanaehirotaka/logbook-kai/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/sanaehirotaka/logbook-kai)](https://github.com/sanaehirotaka/logbook-kai/releases)
 
-## ****重要なお知らせ****
-v20.9.2 以降のバージョンはオリジナルの [sanaehirotaka さんのリポジトリ](https://github.com/sanaehirotaka/logbook-kai/)ではなく
-[Sdk0815 の fork](https://github.com/Sdk0815/logbook-kai/)にて開発を行います。
-最新バージョンも[こちら](https://github.com/Sdk0815/logbook-kai/releases)からダウンロードしてください。
-今後は[Issue（問題報告・要望）](https://github.com/Sdk0815/logbook-kai/issues)や[Pull Request（変更要求）](https://github.com/Sdk0815/logbook-kai/pulls)などもそちらにオープンしていただきますようお願いします。
+# Name（リポジトリ/プロジェクト/OSSなどの名前）
 
-### 概要
+分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
 
-**航海日誌 (logbook-kai)** は、「艦隊これくしょん ～艦これ～」をより遊びやすくするための外部ツールです。
---
-画面がコンパクトなのが特徴です。
+"hoge"が何かを簡潔に紹介する
 
-![メイン画面](images/overview.png)
+# DEMO
 
-### 航海日誌 について
+"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
 
-航海日誌 では[Jetty](http://www.eclipse.org/jetty/) で通信内容をキャプチャして内容を解析／表示します。
-プロキシ設定を行うことで別のツールと連携することも可能です。
+# Features
 
-**「艦隊これくしょん ～艦これ～」サーバーに対する通信内容の改変、追加の通信等は一切行っていません。**
+"hoge"のセールスポイントや差別化などを説明する
 
-MIT ライセンスの下で公開する、自由ソフトウェアです。
+# Requirement
 
-### 主な機能
+"hoge"を動かすのに必要なライブラリなどを列挙する
 
-* 遠征・入渠の通知機能 : 1分前になると自動的に通知します。
-* 海戦・ドロップ報告書 : 戦闘の状況、ドロップ艦娘などの情報の収集を行えます。
-* 所有装備一覧 : 誰がどの装備を持っているかを簡単に確認することが出来ます。
-* 所有艦娘一覧 : 艦娘の各種パラメータ(コンディション、制空値、火力値等)の閲覧を行うことが出来ます。
-* お風呂に入りたい艦娘 : 修理が必要な艦娘の時間と必要資材を一覧で見ることが出来ます。
+* huga 3.5.2
+* hogehuga 1.0.2
 
+# Installation
 
-### 動作環境
-![Java](https://img.shields.io/badge/-Java-007396.svg?logo=java)
-![Windows](https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows)
-![Debian](https://img.shields.io/badge/-Debian-A81D33.svg?logo=debian)
-![Redhat](https://img.shields.io/badge/-Redhat-EE0000.svg?logo=red-hat)
-![macOS](https://img.shields.io/badge/-macOS-333333.svg?logo=apple)
+Requirementで列挙したライブラリなどのインストール方法を説明する
 
-Java 8u40以降のJava8がインストールされたWindows,LinuxまたはmacOSが必要です。
+```bash
+pip install huga_package
+```
 
-**次のJavaVMで動作確認されています。**
-- **[Liberica JDK version 8](https://bell-sw.com/pages/java-8u232/)**
-   - 新規に導入する場合、こちらを推奨します。
-- [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-   - ダウンロードにOTNアカウントが必要です。
+# Usage
 
-次のJavaVMではご利用いただけません。
-- バージョンが8ではないJavaVM
-- Amazon Corretto : 一部機能が動作しません(集計機能・自動アップデートが利用不可)。
-- AdoptOpenJDK : ライブラリが不足しているため起動しません。
+DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
-### [ダウンロード](https://github.com/sanaehirotaka/logbook-kai/releases)
+```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
 
-**ご注意ください**
+# Note
 
-**初期の状態では艦娘の画像が表示出来ません。必ず**[FAQ](faq.md)**をお読みください。**
+注意点などがあれば書く
 
-### [ブラウザの設定(必須)](how-to-preference.md)
+# Author
 
-### [FAQ](faq.md)
+作成情報を列挙する
 
-#### プラグイン
-* [Pushbullet Plugin](https://github.com/rsky/logbook-kai-plugins)
-  * 遠征・入渠の通知をiPhone/Android端末へプッシュ通知することが可能になります。
+* 作成者
+* 所属
+* E-mail
 
-### スクリーンショット
+# License
+ライセンスを明示する
 
-* メイン画面
+"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-![メイン画面](images/overview.png)
+社内向けなら社外秘であることを明示してる
 
-* 所有装備一覧
-
-![所有装備一覧そのいち](images/items1.png)
-![所有装備一覧そのに](images/items2.png)
-
-* 戦闘ログ
-
-![戦闘ログそのいち](images/battlelog1.png)
-![戦闘ログそのに](images/battlelog2.png)
-
-### 開発者向け
-
-#### [ビルド方法](how-to-build.md)
-
-#### [プラグイン開発](how-to-develop.md)
-
-### ライセンス
-
-* [The MIT License (MIT)](LICENSE)
-
-MIT ライセンスの下で公開する、自由ソフトウェアです。
-
-### 使用ライブラリとライセンス
-
-以下のライブラリを使用しています。
-
-#### [JSON Processing(JSR 353)](https://jsonp.java.net/)
-
-* COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL - Version 1.1)
-* GNU General Public License (GPL - Version 2, June 1991) with the Classpath Exception
-* **ライセンス全文 :** [https://jsonp.java.net/license.html](https://jsonp.java.net/license.html)
-
-#### [Jetty](http://www.eclipse.org/jetty/)
-
-* Apache License 2.0
-* Eclipse Public License 1.0
-* **ライセンス全文 :** [http://www.eclipse.org/jetty/licenses.php](http://www.eclipse.org/jetty/licenses.php)
-
-#### [commons-logging](https://commons.apache.org/proper/commons-logging/)
-
-* Apache License 2.0
-* **ライセンス全文 :** [http://www.apache.org/licenses/](http://www.apache.org/licenses/)
-
-#### [Apache Log4j 2](http://logging.apache.org/log4j/2.x/)
-
-* Apache License 2.0
-* **ライセンス全文 :** [http://logging.apache.org/log4j/2.x/license.html](http://logging.apache.org/log4j/2.x/license.html)
-
-#### [ControlsFX](http://fxexperience.com/controlsfx/)
-
-* The BSD 3-Clause License
-* **ライセンス全文 :** [https://bitbucket.org/controlsfx/controlsfx/src/default/license.txt?fileviewer=file-view-default](https://bitbucket.org/controlsfx/controlsfx/src/default/license.txt?fileviewer=file-view-default)
+"hoge" is Confidential.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+# Name（リポジトリ/プロジェクト/OSSなどの名前）
+ 
+分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+ 
+"hoge"が何かを簡潔に紹介する
+ 
+# DEMO
+ 
+"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+ 
+# Features
+ 
+"hoge"のセールスポイントや差別化などを説明する
+ 
+# Requirement
+ 
+"hoge"を動かすのに必要なライブラリなどを列挙する
+ 
+* huga 3.5.2
+* hogehuga 1.0.2
+ 
+# Installation
+ 
+Requirementで列挙したライブラリなどのインストール方法を説明する
+ 
+```bash
+pip install huga_package
+```
+ 
+# Usage
+ 
+DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+ 
+```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
+ 
+# Note
+ 
+注意点などがあれば書く
+ 
+# Author
+ 
+作成情報を列挙する
+ 
+* 作成者
+* 所属
+* E-mail
+ 
+# License
+ライセンスを明示する
+ 
+"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+ 
+社内向けなら社外秘であることを明示してる
+ 
+"hoge" is Confidential.
