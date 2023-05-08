@@ -2,15 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class MomotaroMove : MonoBehaviour
+public class TargetPontMove : MonoBehaviour
 {
-    // 移動変数
-    float vx = 0;
-    float vy = 0;
-
-    // 移動スピード
-    public float speed = 1.0f;
+    // 回転用変数
+    float vz = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -21,31 +16,25 @@ public class MomotaroMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // 毎フレーム数値を初期化
-        vx = 0;
-        vy = 0;
-
-        // 横移動
+        //キーを押した逆方向へ回転
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            vx = -speed;
+            vz = 90;
         }
         else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            vx = speed;
+            vz = -90;
         }
-
-        // 縦移動
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
-            vy = speed;
+            vz = 0;
         }
         else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
-            vy = -speed;
+            vz = 180;
         }
 
         // 実際の移動処理
-        this.transform.Translate(vx * Time.deltaTime, vy * Time.deltaTime, 0);
+        this.transform.rotation = Quaternion.Euler(0, 0, vz);
     }
 }
