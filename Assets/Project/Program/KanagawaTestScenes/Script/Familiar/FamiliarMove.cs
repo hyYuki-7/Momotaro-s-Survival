@@ -10,6 +10,9 @@ public class FamiliarMove : MonoBehaviour
     // 移動スピード
     public float speed = 1.0f;
 
+    // 移動モード
+    private int MoveMode; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +24,23 @@ public class FamiliarMove : MonoBehaviour
     {
         //指定したターゲットに向かって移動
          transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);       
+    }
+
+    int MoveModeChoice()
+    {
+
+    }
+
+    private void Move()
+    {
+        switch (MoveMode)
+        {
+            case 1:
+                break;
+            case 2:
+                break;
+           default:
+                break;
+        }
     }
 }
