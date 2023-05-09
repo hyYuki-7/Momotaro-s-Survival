@@ -108,10 +108,10 @@ TextureImporter:
       name: MomotaroImage_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 101
-        width: 16
-        height: 26
+        x: 8
+        y: 208
+        width: 34
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f4e7596550f4e01900b502ae2789cf
-      internalID: 1646313562
+      spriteID: 8fd5bc3874e189d4e97af9925f484a10
+      internalID: 1854196380
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: MomotaroImage_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 101
-        width: 19
-        height: 28
+        x: 73
+        y: 208
+        width: 39
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87fa3bfd82a8a467fa070379f620afa5
-      internalID: -1324738372
+      spriteID: 5174a1a7f345c4147aa8cd0a2c47a9c8
+      internalID: -718776833
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: MomotaroImage_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 101
-        width: 16
-        height: 26
+        x: 144
+        y: 208
+        width: 33
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88de3ea4f3db145c5815bc3980f57b6b
-      internalID: 241585182
+      spriteID: d80b0e7999b4fbc4d9981c08513424f2
+      internalID: 1619981980
       vertices: []
       indices: 
       edges: []
@@ -171,10 +171,10 @@ TextureImporter:
       name: MomotaroImage_3
       rect:
         serializedVersion: 2
-        x: 4
-        y: 69
-        width: 16
-        height: 27
+        x: 10
+        y: 142
+        width: 34
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d046c71758064ed7b903bcf77055de5
-      internalID: -1049549139
+      spriteID: c7f6a26c1010f1f48bb480cd07eed1ed
+      internalID: 644175981
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,10 @@ TextureImporter:
       name: MomotaroImage_4
       rect:
         serializedVersion: 2
-        x: 35
-        y: 69
-        width: 16
-        height: 28
+        x: 75
+        y: 142
+        width: 33
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f56170d0777f4a869d7c00c8c2bd004
-      internalID: 1141856534
+      spriteID: b3600a864eb12014d86dcf32bd665eeb
+      internalID: -2044860559
       vertices: []
       indices: 
       edges: []
@@ -213,10 +213,10 @@ TextureImporter:
       name: MomotaroImage_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 69
-        width: 16
-        height: 27
+        x: 142
+        y: 142
+        width: 33
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a257f4304b144588a75d26a6e9798dc
-      internalID: 1637776075
+      spriteID: de0b503d747254f43ac81ca9e9d18132
+      internalID: -1223363377
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: MomotaroImage_6
       rect:
         serializedVersion: 2
-        x: 3
-        y: 37
-        width: 16
-        height: 27
+        x: 8
+        y: 75
+        width: 34
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6df21c95f8aa4bd8a38c4dfc6b69728
-      internalID: 1679765470
+      spriteID: 2e3f0d175ca9cc346b55b64aeb416849
+      internalID: -867434241
       vertices: []
       indices: 
       edges: []
@@ -255,10 +255,10 @@ TextureImporter:
       name: MomotaroImage_7
       rect:
         serializedVersion: 2
-        x: 34
-        y: 37
-        width: 19
-        height: 28
+        x: 73
+        y: 75
+        width: 39
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e78fa159832849239d4ea6d3c3b0de8
-      internalID: 922823196
+      spriteID: 8bd61a1a8649d9248908af90a8fc843f
+      internalID: -984685502
       vertices: []
       indices: 
       edges: []
@@ -276,10 +276,10 @@ TextureImporter:
       name: MomotaroImage_8
       rect:
         serializedVersion: 2
-        x: 67
-        y: 37
-        width: 16
-        height: 27
+        x: 142
+        y: 75
+        width: 33
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5ea2ac94b8dc4cc0a691ecaa09ee827
-      internalID: -671772750
+      spriteID: 087bd369e706ccf45b822e289d67eb9a
+      internalID: 573530222
       vertices: []
       indices: 
       edges: []
@@ -297,10 +297,10 @@ TextureImporter:
       name: MomotaroImage_9
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 16
-        height: 27
+        x: 8
+        y: 8
+        width: 33
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23477dba8a39e42d880ef537a9534c13
-      internalID: -1363954160
+      spriteID: f318718ff66d52e4694cf45658f38731
+      internalID: 331533047
       vertices: []
       indices: 
       edges: []
@@ -318,10 +318,10 @@ TextureImporter:
       name: MomotaroImage_10
       rect:
         serializedVersion: 2
-        x: 35
-        y: 5
-        width: 16
-        height: 28
+        x: 75
+        y: 8
+        width: 33
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 834437042f04c426db9b3bf630c7a1cc
-      internalID: 944493712
+      spriteID: a7aee308c6e9a2a4e979e73e81fb2375
+      internalID: -1728757152
       vertices: []
       indices: 
       edges: []
@@ -339,10 +339,10 @@ TextureImporter:
       name: MomotaroImage_11
       rect:
         serializedVersion: 2
-        x: 67
-        y: 5
-        width: 16
-        height: 27
+        x: 139
+        y: 8
+        width: 34
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3abbd09bbb6b453c9e5c80a35da22b5
-      internalID: 1597220123
+      spriteID: 3564b44f4a4aedf40be6e84f3208c321
+      internalID: 1563742648
       vertices: []
       indices: 
       edges: []
@@ -367,18 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MomotaroImage_0: 1646313562
-      MomotaroImage_1: -1324738372
-      MomotaroImage_10: 944493712
-      MomotaroImage_11: 1597220123
-      MomotaroImage_2: 241585182
-      MomotaroImage_3: -1049549139
-      MomotaroImage_4: 1141856534
-      MomotaroImage_5: 1637776075
-      MomotaroImage_6: 1679765470
-      MomotaroImage_7: 922823196
-      MomotaroImage_8: -671772750
-      MomotaroImage_9: -1363954160
+      MomotaroImage_0: 1854196380
+      MomotaroImage_1: -718776833
+      MomotaroImage_10: -1728757152
+      MomotaroImage_11: 1563742648
+      MomotaroImage_2: 1619981980
+      MomotaroImage_3: 644175981
+      MomotaroImage_4: -2044860559
+      MomotaroImage_5: -1223363377
+      MomotaroImage_6: -867434241
+      MomotaroImage_7: -984685502
+      MomotaroImage_8: 573530222
+      MomotaroImage_9: 331533047
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

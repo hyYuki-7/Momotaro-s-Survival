@@ -26,9 +26,9 @@ public class FamiliarMove : MonoBehaviour
          transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);       
     }
 
-    int MoveModeChoice()
+    private int MoveModeChoice()
     {
-
+        return 0;
     }
 
     private void Move()
