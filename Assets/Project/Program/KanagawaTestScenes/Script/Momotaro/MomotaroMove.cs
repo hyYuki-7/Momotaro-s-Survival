@@ -34,11 +34,30 @@ public class MomotaroMove : MonoBehaviour
         vx = 0;
         vy = 0;
 
+        // 斜め移動時用変数
+        float move = 1.0f;
+
+        // 右左キーが入力されているか
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+            {
+                // 斜め移動を検知
+                move = 0.71f;
+            }
+            else
+            {
+                // 斜め移動を未検知 
+                move = 1.0f;
+            }
+        }
+
         // 横移動
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             // 左へ移動
-            vx = -speed;
+            vx = -speed * move;
 
             // 左向きのアニメーションを再生
             MoveAnimetor.SetFloat("InputX", -1);
@@ -49,7 +68,7 @@ public class MomotaroMove : MonoBehaviour
         else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             // 右へ移動
-            vx = speed;
+            vx = speed * move;
 
             // 右向きのアニメーションを再生
             MoveAnimetor.SetFloat("InputX", 1);
@@ -61,7 +80,7 @@ public class MomotaroMove : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             // 上へ移動
-            vy = speed;
+            vy = speed * move;
 
             // 上向きのアニメーションを再生
             MoveAnimetor.SetFloat("InputY", 1);
@@ -71,7 +90,7 @@ public class MomotaroMove : MonoBehaviour
         else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             // 下へ移動
-            vy = -speed;
+            vy = -speed * move;
 
             // 下向きのアニメーションを再生
             MoveAnimetor.SetFloat("InputY", -1);
