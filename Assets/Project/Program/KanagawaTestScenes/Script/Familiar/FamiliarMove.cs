@@ -11,7 +11,7 @@ public class FamiliarMove : MonoBehaviour
     public float speed = 1.0f;
 
     // 移動モード
-    private int MoveMode = 2;
+    private int MoveMode = 1;
 
     // Enemyタグ検索用変数
     GameObject EnemyTag;
