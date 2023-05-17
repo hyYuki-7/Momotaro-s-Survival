@@ -1,14 +1,24 @@
 
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# Momotaro's　Survival
 
 分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
 
 "hoge"が何かを簡潔に紹介する
 
-# DEMO
+# プロジェクト参加方法
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+GitHub Desktop をダウンロード&インストール。 https://desktop.github.com/
 
+インストールが終わったら、ブラウザでアクセス。 https://github.com/hyYuki-7/METROID
+
+緑色の「code」ボタンを押して、「local」タブを選択。 表示された「Open with GitHub Desktop」を選択。
+
+GitHub Desktopが開かれる。 プロジェクトの保存場所を聞かれるので任意の場所を選択する。
+
+Unity HUBを起動して、右上にある「開く」ボタンを選択。 エクスプローラーor Finderが開かれるので、
+GitHUBのプロジェクトがあるフォルダを選択。
+
+すると、共有されているUnityのプロジェクトが開かれるはず。
 # Features
 
 "hoge"のセールスポイントや差別化などを説明する
