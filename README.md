@@ -9,7 +9,7 @@
 
 GitHub Desktop をダウンロード&インストール。 https://desktop.github.com/
 
-インストールが終わったら、ブラウザでアクセス。 https://github.com/hyYuki-7/METROID
+インストールが終わったら、ブラウザでアクセス。 https://github.com/hyYuki-7/Momotaro-s-Survival
 
 緑色の「code」ボタンを押して、「local」タブを選択。 表示された「Open with GitHub Desktop」を選択。
 
