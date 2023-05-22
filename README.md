@@ -7,23 +7,23 @@
 
 # プロジェクト参加方法
 
-①GitHub Desktop をダウンロード&インストール。 
-　https://desktop.github.com/
+①GitHub Desktop をダウンロード&インストール。  
+　https://desktop.github.com/  
 
-②インストールが終わったら、ブラウザでアクセス。 
-　https://github.com/hyYuki-7/Momotaro-s-Survival
+②インストールが終わったら、ブラウザでアクセス。   
+　https://github.com/hyYuki-7/Momotaro-s-Survival  
 
-③緑色の「code」ボタンを押して、「local」タブを選択。 
-　表示された「Open with GitHub Desktop」を選択。
+③緑色の「code」ボタンを押して、「local」タブを選択。   
+　表示された「Open with GitHub Desktop」を選択。  
 
-④GitHub Desktopが開かれる。 
-　プロジェクトの保存場所を聞かれるので任意の場所を選択する。
+④GitHub Desktopが開かれる。   
+　プロジェクトの保存場所を聞かれるので任意の場所を選択する。  
 
-⑤Unity HUBを起動して、右上にある「開く」ボタンを選択。 
-　エクスプローラー(Windows) or Finder(Mac)が開かれるので、
-　GitHUBのプロジェクトがあるフォルダを選択。
+⑤Unity HUBを起動して、右上にある「開く」ボタンを選択。   
+　エクスプローラー(Windows) or Finder(Mac)が開かれるので、  
+　GitHUBのプロジェクトがあるフォルダを選択。  
 
-⑥すると、共有されているUnityのプロジェクトが開かれるはず。
+⑥すると、共有されているUnityのプロジェクトが開かれるはず。  
 
 # Features
 
