@@ -1,4 +1,3 @@
-
 # Momotaro's　Survival
 
 Vampire Survivorsのようなゲームを目指して制作しています。
