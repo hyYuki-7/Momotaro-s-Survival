@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class MomotaroMove : MonoBehaviour
+public class MomotaroMove : Character
 {
+    Character Momotaro;
+
     // アニメーターコンポーネント取得変数
     private Animator MoveAnimetor;
 

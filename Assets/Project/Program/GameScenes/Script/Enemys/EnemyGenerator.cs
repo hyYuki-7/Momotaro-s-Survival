@@ -1,33 +1,36 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyGenerator : MonoBehaviour
 {
-    public int count = 0;
-    float span = 5.0f;
-    public float time = 0f;
+    // プレハブ格納用
     public GameObject EnemyPrefab;
+
+    GameObject CamPos;
+
+    int Count;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //フレームレートを60で固定している。
+        Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-        if(time > span && count < 4)
+        // 一定時間ごとにプレハブを生成
+        if(Time.frameCount % 60 == 0)
         {
-            //GameObject enemy = (GameObject)Instantiate(EnemyPrefab, new Vector3(Random.Range(10,30), 5, Random.Range(10,30)), Quaternion.identity);
-            //GameObject enemy = (GameObject)Instantiate(EnemyPrefab, new Vector2(Random.Range(10,30), 5, Random.Range(10,30)), Quaternion.identity);
-
-            count++;
-            time = 0;
-        }
-
+            // 生成位置
+            Vector3 pos = new Vector3(-20.0f, 10.0f, 0.0f);
+            var parent = this.transform;
+            // プレハブを指定位置に生成
+            Instantiate(EnemyPrefab, pos, Quaternion.identity,parent);
+        }  
+        Debug.Log(Count / 600);
+        Count++;
     }
 }

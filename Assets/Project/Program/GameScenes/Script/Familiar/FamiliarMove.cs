@@ -32,15 +32,14 @@ public class FamiliarMove : MonoBehaviour
     {
         switch (MoveMode)
         {
-            case 1:
+            case 1://MomotaroTarget
                 // Momotaro配下のTargetPointに向かって移動
                 transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
                 break;
-            case 2:
+            case 2://EnemyTarget
                 // 近くのEnemyタグを持つオブジェクトを検索して移動
                 Debug.Log(EnemyTag.transform.position.x　+ "です");
                 transform.position = Vector2.MoveTowards(transform.position, EnemyTag.transform.position, speed * Time.deltaTime);
-
                 break;
            default:
                 break;
