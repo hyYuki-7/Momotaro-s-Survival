@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 19854565}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -254,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1038508083}
   speed: 3
+  MoveMode: 1
 --- !u!1 &103249831
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +430,7 @@ GameObject:
   - component: {fileID: 198744953}
   m_Layer: 0
   m_Name: MomotaroTest
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -736,6 +737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1482718165}
   speed: 3
+  MoveMode: 1
 --- !u!1 &858984771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 784671402}
   speed: 3
+  MoveMode: 2
 --- !u!1 &1340543271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,7 +1255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf459feecac940eba7de10eb782f756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubePrefab: {fileID: 9146984486773277370, guid: 34ff75eb3640549b0a786fc4503dbf01, type: 3}
+  EnemyPrefab: {fileID: 9146984486773277370, guid: 34ff75eb3640549b0a786fc4503dbf01, type: 3}
 --- !u!1 &1791495489
 GameObject:
   m_ObjectHideFlags: 0
