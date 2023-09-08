@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+
+
+public class EnemyMove : Character
 {
     public string PlayerTag = "Player"; // プレイヤーオブジェクトのタグ
     public float MoveSpeed = 1.0f; // 敵の移動速度
@@ -36,6 +38,11 @@ public class EnemyMove : MonoBehaviour
             // 一定の距離未満でプレイヤーに近づいた場合、移動を停止
             // ここで停止のアクションを追加できます
             Debug.Log("停止中");
+        }
+
+        if(Input.GetKey(KeyCode.P))
+        {
+            Debug.Log("レベル" + Level);
         }
     }
 }

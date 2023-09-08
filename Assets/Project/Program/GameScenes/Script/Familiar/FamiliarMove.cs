@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FamiliarMove : MonoBehaviour
+public class FamiliarMove : Character
 {
     // インスペクター用変数
     public GameObject target;
@@ -13,7 +13,7 @@ public class FamiliarMove : MonoBehaviour
     // 移動モード
     [SerializeField] private int MoveMode = 1;
 
-    // Enemyタグ検索用変数
+    // Playerタグ検索用変数
     GameObject PlayerTag;
 
     // Enemyタグ検索用変数

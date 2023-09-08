@@ -516,10 +516,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39314801510811a4788a03581a83762f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 0
+  Level: 200
+  Hp: 0
   Speed: 0
   Attack: 0
-  Exist: 0
+  Physical: 0
+  ExistFlag: 1
+  MovediSable: 0
   speed: 3
 --- !u!95 &198744953
 Animator:
@@ -1081,7 +1084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 784671402}
   speed: 3
-  MoveMode: 2
+  MoveMode: 1
 --- !u!1 &1340543271
 GameObject:
   m_ObjectHideFlags: 0

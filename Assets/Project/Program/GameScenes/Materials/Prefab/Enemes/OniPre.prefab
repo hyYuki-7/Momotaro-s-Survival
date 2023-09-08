@@ -97,6 +97,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc461cf379bbe4e1490e3f2e282cb059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: 10
+  Hp: 0
+  Speed: 1
+  Attack: 0
+  Physical: 0
+  ExistFlag: 1
+  MovediSable: 0
   PlayerTag: Player
-  MoveSpeed: 2
-  StopDistance: 4
+  MoveSpeed: 1
+  StopDistance: 2

@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    public int HP;  //体力
-    public float Speed; //速度
-    public int Attack;  //攻撃力 
-    public bool Exist;  //生死
+    //レベル
+    public int Level=10;
+    //体力
+    public float Hp;
+    //速度
+    public float Speed = 1.0f;
+    //攻撃力
+    public float Attack;
+    //フィジカル
+    public float Physical;
+    //生死
+    public bool ExistFlag = true;
+    //一時停止用フラグ
+    public bool MovediSable = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +31,10 @@ public class Character : MonoBehaviour
         
     }
 
+    public bool CharacterPause()
+    {
+        MovediSable = true;
+        return MovediSable;
+    }
 
 }

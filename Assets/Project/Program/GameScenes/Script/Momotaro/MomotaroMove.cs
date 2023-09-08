@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
+//これでEnemyのpublicがインスペクタに表示される
+#if UNITY_EDITOR
+[CustomEditor(typeof(Character))]
+#endif
 
 public class MomotaroMove : Character
 {
@@ -16,7 +21,7 @@ public class MomotaroMove : Character
 
     // 移動スピード
     public float speed = 1.0f;
-
+    
     // Start is called before the first frame update
     void Start()
     {
