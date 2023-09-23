@@ -252,6 +252,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1873048977c52a4dae5a6eb4a6487bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: 10
+  Hp: 0
+  Speed: 1
+  Attack: 0
+  Physical: 0
+  ExistFlag: 1
+  MovediSable: 0
   target: {fileID: 1038508083}
   speed: 3
   MoveMode: 1
@@ -396,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190049262}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -412,7 +419,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190049262}
   m_Enabled: 1
-  m_CellSize: {x: 0.38, y: 0.38, z: 0}
+  m_CellSize: {x: 4.24, y: 20, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -738,6 +745,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1873048977c52a4dae5a6eb4a6487bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: 10
+  Hp: 0
+  Speed: 1
+  Attack: 0
+  Physical: 0
+  ExistFlag: 1
+  MovediSable: 0
   target: {fileID: 1482718165}
   speed: 3
   MoveMode: 1
@@ -771,7 +785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1070336855}
-  grassTile: {fileID: 11400000, guid: adae5a7aedd09584bb322c5ffcc05478, type: 2}
+  grassTile: {fileID: 11400000, guid: de51cffa0c25c4045b98d4b86e435be2, type: 2}
 --- !u!4 &858984773
 Transform:
   m_ObjectHideFlags: 0
@@ -1082,6 +1096,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1873048977c52a4dae5a6eb4a6487bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: 10
+  Hp: 0
+  Speed: 1
+  Attack: 0
+  Physical: 0
+  ExistFlag: 1
+  MovediSable: 0
   target: {fileID: 784671402}
   speed: 3
   MoveMode: 1

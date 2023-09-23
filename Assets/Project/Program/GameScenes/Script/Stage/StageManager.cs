@@ -22,12 +22,12 @@ public class StageManager : MonoBehaviour
     void Start()
     {
         //マップの最大値設定
-        i_max_x = 25;
-        i_max_y = 15;
+        i_max_x = 5;
+        i_max_y = 0;
 
         //マップの最小値設定
-        i_min_x = -25;
-        i_min_y = -15;
+        i_min_x = -5;
+        i_min_y = -1;
 
         StartCoroutine(SetTile());
     }
