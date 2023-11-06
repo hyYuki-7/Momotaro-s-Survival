@@ -12,6 +12,8 @@ public class MomotaroMove : Character
 {
     Character Momotaro;
 
+    Test testtest;
+
     // アニメーターコンポーネント取得変数
     private Animator MoveAnimetor;
 
@@ -21,10 +23,11 @@ public class MomotaroMove : Character
 
     // 移動スピード
     public float speed = 1.0f;
-    
+
     // Start is called before the first frame update
     void Start()
     {
+        testtest = new Test();
         // アニメーションコンポーネントを取得
         MoveAnimetor = GetComponent<Animator>();
     }
@@ -32,6 +35,7 @@ public class MomotaroMove : Character
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(testtest.test);
         MomotaroWalke();
     }
 
@@ -47,7 +51,7 @@ public class MomotaroMove : Character
         // 右左キーが入力されているか
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            
+
             if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             {
                 // 斜め移動を検知
