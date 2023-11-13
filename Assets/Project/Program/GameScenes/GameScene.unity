@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 198744950}
   - component: {fileID: 198744952}
   - component: {fileID: 198744953}
+  - component: {fileID: 198744954}
   m_Layer: 0
   m_Name: MomotaroTest
   m_TagString: Player
@@ -552,6 +553,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &198744954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198744948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e48ac08720b10f4799efeaf4437db51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 0
+  test2: 0
 --- !u!1 &264353071
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,16 +33,16 @@ public class EnemyGenerator : MonoBehaviour
     void Generator()
     {
         // 一定時間ごとにプレハブを生成
-        if(Time.frameCount % 60 == 0)
+        if (Time.frameCount % 60 == 0)
         {
             // 生成位置
             Vector2 PosCentar = new Vector2(-20.0f, 10.0f);
             Vector3 PosLeft = new Vector3(-20.0f, 10.0f, 0.0f);
             Vector3 PosRight = new Vector3(-20.0f, 10.0f, 0.0f);
-            
+
             var parent = this.transform;
             // プレハブを指定位置に生成
-            Instantiate(EnemyPrefab, PosCentar, Quaternion.identity,parent);
+            Instantiate(EnemyPrefab, PosCentar, Quaternion.identity, parent);
         }
     }
 }
