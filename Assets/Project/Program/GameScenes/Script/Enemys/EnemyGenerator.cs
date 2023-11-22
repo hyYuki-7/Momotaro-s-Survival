@@ -2,25 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class EnemyGenerator : MonoBehaviour
 {
     // プレハブ格納用
     public GameObject EnemyPrefab;
 
-    Camera CamPos;
+    // インスペクター用変数
+    // Enemy生成場所
+    [SerializeField] private GameObject[] targetPont = new GameObject[4];
 
-    private int GeneratPoint;
-    private bool GeneratFlag;
+    // Enemy生成タイミング用
+    [SerializeField] private bool GeneratFlag = true;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         // フレームレートを60FPSで固定。
         Application.targetFrameRate = 60;
-
-        GeneratFlag = false;
 
     }
 
@@ -30,19 +30,25 @@ public class EnemyGenerator : MonoBehaviour
         Generator();
     }
 
+    // Enemy生成フラグがtrueの時生成
     void Generator()
     {
-        // 一定時間ごとにプレハブを生成
-        if (Time.frameCount % 60 == 0)
+        //Debug.Log(targetPont[0]);
+        // Enemy生成フラグがtrueの時生成
+        if (GeneratFlag)
         {
-            // 生成位置
-            Vector2 PosCentar = new Vector2(-20.0f, 10.0f);
-            Vector3 PosLeft = new Vector3(-20.0f, 10.0f, 0.0f);
-            Vector3 PosRight = new Vector3(-20.0f, 10.0f, 0.0f);
+            // 一定時間ごとにプレハブを生成
+            if (Time.frameCount % 30 == 0)
+            {
+                // ランダムな生成位置を取得
+                GameObject randomTargetPoint = targetPont[Random.Range(0, targetPont.Length)];
+                Vector2 randomPosition = randomTargetPoint.transform.position;
 
-            var parent = this.transform;
-            // プレハブを指定位置に生成
-            Instantiate(EnemyPrefab, PosCentar, Quaternion.identity, parent);
+                var parent = this.transform;
+                // プレハブをランダムな位置に生成
+                Instantiate(EnemyPrefab, randomPosition, Quaternion.identity, parent);
+            }
         }
     }
+
 }

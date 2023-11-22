@@ -10,8 +10,6 @@ using UnityEditor;
 
 public class MomotaroMove : Character
 {
-    //    Character Momotaro;
-
     // アニメーターコンポーネント取得変数
     private Animator MoveAnimetor;
 
@@ -27,6 +25,7 @@ public class MomotaroMove : Character
     {
         // アニメーションコンポーネントを取得
         MoveAnimetor = GetComponent<Animator>();
+        Debug.Log(222);
     }
 
     // Update is called once per frame
