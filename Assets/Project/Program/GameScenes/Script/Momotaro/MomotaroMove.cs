@@ -10,8 +10,6 @@ using UnityEditor;
 
 public class MomotaroMove : Character
 {
-    Character Momotaro;
-
     // アニメーターコンポーネント取得変数
     private Animator MoveAnimetor;
 
@@ -21,12 +19,13 @@ public class MomotaroMove : Character
 
     // 移動スピード
     public float speed = 1.0f;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         // アニメーションコンポーネントを取得
         MoveAnimetor = GetComponent<Animator>();
+        Debug.Log(222);
     }
 
     // Update is called once per frame
@@ -47,7 +46,7 @@ public class MomotaroMove : Character
         // 右左キーが入力されているか
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            
+
             if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             {
                 // 斜め移動を検知
